@@ -27,7 +27,7 @@
     "axios": "^1.6.5",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
-    "tiny-crud": "^1.0.20"
+    "tiny-crud": "^1.0.22"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",

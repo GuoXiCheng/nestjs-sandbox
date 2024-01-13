@@ -21,8 +21,9 @@ export class TinyCRUDController {
     
     @Get('/')
     async findAll(): Promise<string> {
-        const result = await this.githubRequest.authenticate();
-        console.log(result);
+        this.githubRequest.authenticate().then((res)=>{
+            console.log(res);
+        });
         return 'This action returns all cats';
     }
 }
